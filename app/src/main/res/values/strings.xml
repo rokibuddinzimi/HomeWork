@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">HomeWork</string>
+    <string name="payment_methods">Payment Methods</string>
+    <string name="error">Error</string>
+    <string name="check_connectivity">Please check your network connectivity</string>
+    <string name="please_wait">Please wait...</string>
+    <string name="try_again">Something went wrong, please try again</string>
+    <string name="ok">Ok</string>
+</resources>
