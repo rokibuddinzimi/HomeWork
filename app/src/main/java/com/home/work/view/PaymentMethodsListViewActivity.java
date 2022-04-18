@@ -46,13 +46,6 @@ public class PaymentMethodsListViewActivity extends AppCompatActivity implements
         }
     }
 
-/*    private void showProgressDialog(){
-        pDialog = new ProgressDialog(this);
-        pDialog.show();
-        pDialog.setMessage(getString(R.string.please_wait));
-        pDialog.setCancelable(false);
-    }*/
-
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
         //TODO implement listview onclick listener
@@ -80,28 +73,4 @@ public class PaymentMethodsListViewActivity extends AppCompatActivity implements
             }
         });
     }
-
-/*    @Override
-    public void onSuccess(ArrayList<DataModel> dataModels) {
-        if (pDialog.isShowing())
-            pDialog.dismiss();
-
-        CustomAdapter adapter;
-        adapter = new CustomAdapter(dataModels, getApplicationContext());
-        listView.setAdapter(adapter);
-    }
-
-    @Override
-    public void onFailed() {
-        if (pDialog.isShowing())
-            pDialog.dismiss();
-
-
-        runOnUiThread(new Runnable() {
-            @Override
-            public void run() {
-                new Utils().showDialog(PaymentMethodsListViewActivity.this, getString(R.string.error), getString(R.string.try_again));
-            }
-        });
-    }*/
 }
